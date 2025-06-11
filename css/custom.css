@@ -91,3 +91,21 @@ body{
 .divider-dark .divider-line{
     background-color: var(--bg);
 }
+
+/* About */
+
+.about{
+    background-color: var(--primary);
+}
+
+.about h2{
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.about .row p{
+    color: #ffffff;
+    font-size: 1.25rem;
+
+}
