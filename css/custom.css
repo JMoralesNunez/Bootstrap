@@ -96,6 +96,7 @@ body{
 
 .about{
     background-color: var(--primary);
+    height: 50vh;
 }
 
 .about h2{
@@ -104,8 +105,24 @@ body{
     font-weight: bold;
 }
 
+.about .row{
+    width: 60%;
+}
+
 .about .row p{
     color: #ffffff;
     font-size: 1.25rem;
+}
 
+.btn{
+    font-size: 1.25rem;
+    padding: 1rem 1.75rem;
+}
+
+.btn svg{
+    width: 20px;
+}
+
+.btn:hover{
+    fill: black !important;
 }
